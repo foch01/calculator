@@ -1,4 +1,7 @@
 <?php
 
-echo "Quel est le nombre dont vous voulez le carré ? ";
-$nombre = trim(fgets(STDIN));
+echo "Quel est le votre premier nombre ? ";
+$a = trim(fgets(STDIN));
+
+echo "Quel est le votre deuxième nombre ? ";
+$b = trim(fgets(STDIN));
